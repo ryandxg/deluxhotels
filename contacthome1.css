@@ -1,0 +1,367 @@
+*{
+    box-sizing: border-box;
+}
+
+/* Begin the Columns */
+.contact{
+    font-size: 4em;
+    padding: 25px;
+    font-family: 'Montserrat', sans-serif;
+    /* font-weight: 700; */
+    color: orangered;
+    margin: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    /* opacity: 0.65; */
+}
+
+.columns{
+    color: crimson;
+    font-family: 'Poppins', sans-serif;
+    /* font-size: 6px; */
+    line-height: 1.7;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+/* td{
+    text-align: left;
+    padding: 16px; 
+    line-height: 2px;
+} */
+
+input{
+    line-height: 10px;
+}
+
+.try{
+    display: flex;
+    /* margin-left: -5px;
+    margin-right: -5px; */
+    padding: 20px;
+}
+.div_columns{
+    border: 1px solid gray;
+    padding: 30px;
+    margin: 5px auto;
+    display:flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content:flex-start;
+}
+form > div{
+    margin: 1.7rem 0px; 
+}
+#information{
+    margin:0px auto;
+}
+.info{
+    flex: 50%;
+    padding: 35px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+    margin: 20px;
+    line-height: 30px;
+}
+/* td{
+    margin: 20px;
+    background-color: red;
+
+} */
+/* input{
+    padding: 10px;
+} */
+
+.btn {
+/* padding: 24px 24px; */
+font-size: 14px;
+letter-spacing: 2.8px;
+border-color: #cda274;
+background-color: greenyellow;
+transition: all 0.3s ease-out;
+border-radius: 2px;
+text-transform: uppercase;
+color: crimson;
+font-weight: 700;
+display: inline-block;
+margin-bottom: 0;
+font-weight: 500px;
+text-align: center;
+vertical-align: middle;
+touch-action: manipulation;
+cursor: pointer;
+background-image: none;
+border: 1px solid transparent;
+white-space: nowrap;
+padding:12px 18px ;
+font-size: 14px;
+line-height: 1.42857143;
+}
+
+.ion-android-pin:before {
+    content: "\f3a3";
+}
+/* End Columns */
+
+/* Begin the Input Icons */
+.icon {
+padding: 10px;
+/* background: #cda274; */
+color: white;
+min-width: 50px;
+text-align: center;
+}
+
+.input-container {
+display: -ms-flexbox; /* IE10 */
+display: flex;
+width: 100%;
+margin-bottom: 15px;
+color: greenyellow;
+line-height: 1.2px;     /* This is important or sizing the height of the input field, when height isn't working  */
+
+}
+
+input{
+    color: orangered;
+}
+input:focus{
+    font-weight: 700;
+}
+.icon {
+/* padding: 10px; */
+background: greenyellow;
+color: white;
+/* color: #cda274; */
+/* min-width: 50px; */
+text-align: center;
+font-size: 30px;
+height: auto;
+}
+
+.input-field, .newemail {
+width: 100%;
+padding: 10px;
+outline: none;
+line-height: 2px;
+line-height: 1.42857143;
+/* height: 20px; */
+}
+/* End the Input Icons */
+
+li > a{
+    text-decoration: none;
+    color: black;
+}
+
+/* .location_on{
+display: -ms-flexbox; 
+display: flex;
+width: 100%;
+margin-bottom: 15px;
+} */
+
+.location_on, .phone_fax, .email{
+    /* background-color: red; */
+    display: flex;
+    font-size: 18px;
+}
+
+li{
+    list-style: none;
+}
+
+.email_add{
+    color: white;
+    text-decoration: none;
+}
+
+.info_nav{
+    font-size: 2em;
+    font-weight: 600;
+    margin-bottom: 0;
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 1.6em;
+}
+
+/* ection Footer */
+.footer_section {
+/* color: #ffffff; */
+background-color: royalblue;
+/* display: block; */
+/* margin: 20px; */
+padding-bottom: 30px;
+padding-top: 30px;
+}
+.container{
+content: " ";
+display: table;
+display: flex;
+}
+
+.footer_section2{
+display: flex;
+padding: 15px;
+margin-left: -5px;
+margin-right: -5px;
+    /* padding: 20px;
+    margin: 50px; */
+}
+.three_columns{
+display: flex;
+padding-top: 40px;
+}
+.first_column, .second_column, .third_column{
+flex: 50%;
+padding: 35px;
+/* border-collapse: collapse; */
+border-spacing: 0;
+/* width: 50%; */
+margin: 20px;
+/* line-height: 30px; */
+font-size: 18px;
+color: white;
+}
+
+.third_column{
+margin: 20px;
+font-size: 18px;
+padding: 35px;
+}
+.first_column, .third_column{
+line-height: 2em;
+color: white;
+}
+.first_column, .second_column{
+    border: 1px solid crimson;
+}
+
+.subscribe_news{
+font-family: 'Montserrat', sans-serif;
+background: linear-gradient(orange,red);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+/* text-shadow: 3px 3px 5px red; */
+letter-spacing: 8px;
+text-transform: uppercase;
+font-size: 20px;
+font-weight: 700;
+margin-top: 20px;
+margin-bottom: 10px;
+}
+.footer_a{
+color: white;
+line-height: 40px;
+}
+.footer_links > a{
+text-decoration: none;
+}
+
+.footer_a:hover, .email_add:hover, .items:hover, .first_email:hover{
+color: #cda274;
+}
+/* start Newsletter input field */
+/* .news_container {
+display: -ms-flexbox; 
+display: flex;
+width: 100%;
+margin-bottom: 15px;
+} */
+
+/* Social media icons */
+.social_media_items{
+display: inline-block;
+text-align: center;
+align-items: center;
+color: white;
+}
+.items{
+color: white;
+}
+
+/* Begin Copyright section */
+hr{
+background-color: white;
+margin-left: 40px;
+margin-right: 40px;
+margin-bottom: 20px;
+}
+
+.copyright_container{
+color: white;
+line-height: 20px;
+}
+
+.copy{
+letter-spacing: 3.8px;
+word-spacing: 5px;
+font-weight: 600;
+line-height: 20px;
+color: white;
+/* display: none !important; */
+}
+
+.copyright_container >p{
+padding: 10px;
+letter-spacing: 2.8px;
+word-spacing: 3px;
+font-weight: 600;
+}
+
+button > a{
+color: white;
+text-decoration: none;
+}
+
+/* Begin Contact us image */
+.contact_head{
+position: relative;
+max-width: 100%;
+}
+.contact_head .contact_bg{
+/* background-color: rgb(71, 48, 48); */
+color: red;
+padding: 20px;
+position: absolute;
+left: 0;
+bottom: 0%;
+}
+.contact_contact{
+font-size: 60px;
+font-weight: 700;
+color: #fff;
+margin-top: 20px;
+margin-bottom: 10px;
+}
+.contact_list{
+display: flex;
+font-size: 20px;
+text-decoration: none;
+}
+.contact_first_list{
+color: #cda274;
+transition: color 0.3s;
+text-decoration: none;
+
+}
+.contact_font:hover{
+color: white;
+}
+.active{
+color: white;
+opacity: 1;
+}

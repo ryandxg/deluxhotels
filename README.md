@@ -1,1 +1,1 @@
-# deluxhotels
+# delux.com
